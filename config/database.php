@@ -1,7 +1,7 @@
 <?php
 class Database{
 private $hostname = "localhost";
-private $database = "tienda_online";
+private $database = "inventario1";
 private $username = "webshop";
 private $password = "Hola741My789";
 private $charset = "utf8";
