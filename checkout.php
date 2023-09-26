@@ -11,7 +11,7 @@ $con = $db->conectar();
 $productos = isset($_SESSION['carrito']['productos']) ? $_SESSION['carrito']['productos'] : null;
 //print_r($_SESSION);
 //Muestra los arrays
-//$lista_carrito = array();
+$lista_carrito = array();
 
 if($productos != null){
 foreach($productos as $clave => $cantidad){
