@@ -121,12 +121,12 @@ crossorigin="anonymous"></script>
 
             <tr>
                 <td><?php echo $nombre ?></td>
-                <td><?php echo MONEDA.number_format($precio_desc, 2, '.', ',' ); ?></td>
+                <td><?php echo MONEDA.number_format($precio_desc, 2, '.', ','); ?></td>
                 <td> 
                     <input type="number" min= "1" max="10" step="1" value="<?php  echo $cantidad  ?>" size="5" id="cantidad_<?php echo $_id; ?>" onchange="actualizaCantidad(this.value, <?php echo $_id; ?>) ">
                 </td>
                 <td>
-                    <div id="subtotal_<?php echo $_id;  ?>" name="subtotal[]"><?php  echo MONEDA.number_format($subtotal, 2, '.', ',' ); ?></div>
+                    <div id="subtotal_<?php echo $_id;  ?>" name="subtotal[]"><?php  echo MONEDA.number_format($subtotal, 2, '.', ','); ?></div>
                 </td>
                 <td>
                     <a href="#" id="Eliminar" class="btn btn-danger btn-sn" data-bs-id="<?php echo $_id;   ?>" data-bs-toggle="modal" data-bs-target="#eliminaModal">Eliminar</a>
