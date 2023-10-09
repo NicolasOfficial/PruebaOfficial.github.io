@@ -1,6 +1,6 @@
 <?php
 /**
- * Correo :juansanchez318@aragon.unam.mx
+Correo :juansanchez318@aragon.unam.mx
 Contraseña: FesA741369
 
 
