@@ -50,6 +50,12 @@ correoempresagbrillantinaOOfficiaaal: gbrillantina.mex@gmail.com
 contraseña: M-e230817
 
 
+
+API:   pablosanchez3318@gmail.com
+CONTRASEÑA: API_133#33
+
+
+
  * 
  * 
  * 
