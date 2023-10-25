@@ -153,7 +153,6 @@ crossorigin="anonymous"></script>
 
     
     <!-- Aqui termina la cabezera-->   
-    <hr class="featurette-divider">
 
 <!– Aquie estan las secciones de productos–>
 

@@ -116,10 +116,17 @@ crossorigin="anonymous"></script>
 
 <!-- Aqui termina Modo oscuro-->
 
-<!– Este es la cabezera de la pagina –>
-<div class="container">
-    <header class="d-flex justify-content-center py-3">
-      <ul class="nav nav-pills">
+<!-- Aqui empieza la cabezera-->
+
+<header class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" aria-label="Tenth navbar example">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas-body">
+
+          <ul class="navbar-nav flex-grow-1 justify-content-between nav nav-pills">
+      <li class="nav-item"><a href="index.html" class="btn btn-outline-warning">Casa</a></li>
         <li class="nav-item"><a href="Proyectopainicial.php" class="btn btn-info" aria-current="page">Inicio</a></li>
         <li class="nav-item"><a href="#" class="btn btn-outline-info">Iniciar secion</a></li>
      
@@ -140,9 +147,14 @@ crossorigin="anonymous"></script>
 
         </form>
       </ul>
-    </header>
-  </div>
 
+          </div>
+        </div>
+</header>
+
+    
+    <!-- Aqui termina la cabezera-->   
+    <hr class="featurette-divider">
 
 <!– Aquie estan las secciones de productos–>
 
