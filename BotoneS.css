@@ -12,7 +12,7 @@
 }
 /*      */
 .btn-neon:hover{
-    background: #6afffa ;
+    background: #2db4c9 ;
    
     transition: 2s;
 }
@@ -25,7 +25,7 @@
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #37cae1);
+    background: linear-gradient(90deg, transparent, #2db4c9);
 }
 .btn-neon:hover #span1{
     left: 100%;
@@ -39,7 +39,7 @@
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, #37cae1);
+    background: linear-gradient(270deg, transparent, #2db4c9);
 }
 
 .btn-neon:hover #span3{
