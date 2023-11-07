@@ -178,7 +178,7 @@ crossorigin="anonymous"></script>
 
         <img src="<?php  echo $imagen;  ?>" width="300" width="300">
 
-      </div>'´'
+      </div>
     </div>
        <hr class="featurette-divider">
 
